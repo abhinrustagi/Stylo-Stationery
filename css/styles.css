@@ -1,0 +1,75 @@
+.banner {
+  background-image: url("../img/banner1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.navbar {
+  padding-right: 40px;
+  padding-left: 40px;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form {
+  text-align: center;
+}
+
+li.nav-item {
+  margin: auto 10px;
+}
+
+.navBar {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.bannerLogo {
+  width: 36%;
+}
+
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 20px;
+}
+
+.row i {
+  /* color: #228CDB; */
+  color: #42BFDD;
+  margin-bottom: 20px;
+}
+
+.row i:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+  .navbar-brand {
+    display: none;
+  }
+  .banner img {
+    width: 50%;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
