@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Know Us - Stylo Stationery ®</title>
+  <title>Know Us - Stylo Stationery®</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/stylo logo.png">
@@ -22,7 +22,7 @@
 
   <!-- Custom CSS File -->
   <link rel="stylesheet" href="css/styles.css">
-
+  <link rel="stylesheet" href="css/knowUs.css">
 </head>
 
 <body>
@@ -59,32 +59,70 @@
     <div class="aboutUs">
       <!-- Contains the story of the company on the left-->
       <!-- Contains address, contact us details on the right -->
-      <h1 class="heading">Know Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus sem sit amet mi suscipit, vestibulum tristique enim dictum. Nam consequat eu nisl vitae porta. Donec at lectus risus. Proin convallis lectus eget sapien varius, vitae
-          tristique enim malesuada. Fusce dapibus porttitor leo, non porta neque sagittis a. Nam orci mi, suscipit vitae efficitur ut, aliquam et nisi. Morbi sit amet dui at massa euismod venenatis. Pellentesque arcu arcu, pretium sed dapibus at,
-          porttitor quis lorem. Sed hendrerit enim non massa vestibulum, vitae tincidunt ligula pharetra. Phasellus at rutrum velit. Curabitur interdum rhoncus libero non mattis.</p>
+      <h1 class="heading">KNOW US</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus sem sit amet mi suscipit, vestibulum tristique enim dictum. Nam consequat eu nisl vitae porta. Donec at lectus risus. Proin convallis lectus eget sapien varius, vitae
+        tristique enim malesuada. Fusce dapibus porttitor leo, non porta neque sagittis a. Nam orci mi, suscipit vitae efficitur ut, aliquam et nisi. Morbi sit amet dui at massa euismod venenatis. Pellentesque arcu arcu, pretium sed dapibus at,
+        porttitor quis lorem. Sed hendrerit enim non massa vestibulum, vitae tincidunt ligula pharetra. Phasellus at rutrum velit. Curabitur interdum rhoncus libero non mattis.</p>
     </div>
+    <div class="contact-info">
+      <button type="button" class="btn btn-info btn-lg active">GET IN TOUCH !</button>
+
+    </div>
+
     <div class="row contact-details">
       <div class="col-md-5">
-          <h3><i class="fas fa-map-marker-alt"></i>Address</h3>
-          <p id="address-heading">B. Dayal & Sons<br />274, 1st Floor, Prakash Street, Teliwara<br />Sadar Bazar, Delhi-110006</p>
-          <h3><i class="fas fa-phone-alt"></i>Contact Number</h3>
-          <p>Rajender Rustagi: +91 9810049121<br />Rakesh Rustagi: +91 9818280890</p>
-          <h3><i class="fas fa-envelope "></i>Email Address</h3>
-          <p>stylostationery@gmail.com</p>
+        <div class="location">
+          <h3><i class="fas fa-map-marker-alt"></i> ADDRESS</h3>
+          <p id="address-heading">
+            B. DAYAL & SONS</p>
+          <a class="links"
+            href="https://www.google.com/maps/dir//Stylo+Stationery,+274,+1st+Floor,Parkash+Street,+Teliwara,+Sadar+Bazaar,+New+Delhi,+Delhi+110006/@28.6602011,77.1451748,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfd72fddca045:0xb5a5e8549b72869f!2m2!1d77.2152159!2d28.6602191"
+            target="_blank">
+            <p>274, 1st Floor, Prakash Street, Teliwara</p>
+            <p>Sadar Bazar, Delhi-110006</p>
+
+          </a>
+
+        </div>
+        <div class="phone">
+          <h3><i class="fas fa-phone-alt"></i> CONTACT NUMBER</h3>
+          <p>Rajender Rustagi:<a class="links" href="tel:+91-9810049121"> +91 9810049121</a><br />Rakesh Rustagi: <a class="links" href="tel:+91-9818280890">+91 9818280890</a></p>
+        </div>
+
+        <div class="email">
+          <h3><i class="fas fa-envelope "></i> EMAIL ADDRESS</h3>
+          <a class="links" href="mailto:stylostationery@gmail.com" target="_blank">stylostationery@gmail.com</a>
+        </div>
+
+
       </div>
       <div class="contact-form col-md-7">
+        <form action="mailto:stylostationery@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputPassword1" required placeholder="Name">
 
+            </div>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Email Address">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required placeholder="Write Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
   </div>
+
 
   <div class="footer">
     <!-- Includes address, contact number, email address
       Copyright, Stylo Stationery, 2020
       Designed & Developed by Abhin Rustagi & Nandika Jain -->
     <p> &copy 2020 Stylo Stationery</p>
-      <p>Designed & Developed by <a class="our-profile" href="https://www.linkedin.com/in/abhinrustagi/">Abhin Rustagi</a> & <a class="our-profile" href="https://www.linkedin.com/in/nandika-jain-36337698/">Nandika Jain</a></p>
+    <p>Designed & Developed by <a class="our-profile" href="https://www.linkedin.com/in/abhinrustagi/">Abhin Rustagi</a> & <a class="our-profile" href="https://www.linkedin.com/in/nandika-jain-36337698/">Nandika Jain</a></p>
   </div>
 </body>
 

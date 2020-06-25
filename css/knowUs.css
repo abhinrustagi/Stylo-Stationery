@@ -1,5 +1,5 @@
-body{
-  text-align:center;
+form{
+  text-align: left;
 }
 p{
   margin:0;
@@ -8,39 +8,18 @@ a{
   text-decoration: none;
 }
 
-/* Navigation Bar */
-.navbar {
-  padding-right: 40px;
-  padding-left: 40px;
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
-form {
-  text-align: center;
-}
-
-li.nav-item {
-  margin: auto 10px;
-}
-
-.navBar {
-  z-index: 999;
-  position: fixed;
-  width: 100%;
-  margin: 0;
-}
-/* Know Us Content */
-.heading{
-
-  /* has to be changed */
-  padding-top: 8%;
-}
-.row{
-  padding: 5% 12%;
-}
 /* Email Address and Phone */
+.row{
+  padding-top:0;
+  padding-top: 4%;
+}
+.contact-info{
+  padding-top:6%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
 h3{
   font-size: 0.9rem;
   margin:0;
@@ -54,31 +33,35 @@ h3{
 .fa-envelope{
 color:#0e91c4;
 }
+i.fa-envelope{
+  margin: 0;
+}
 .fa-phone-alt{
   color:#061952;
 }
+i.fa-phone-alt{
+  margin:0;
+}
 .fa-map-marker-alt{
   color:#e30909;
+}
+i.fa-map-marker-alt{
+  margin:0;
 }
 div.location
 {margin-bottom: 5%;}
 div.phone{
   margin-bottom: 5%;
 }
+div.email{
+  margin-bottom: 10%;
+}
 #address-heading{
   font-weight:500;
 }
-/* Footer */
-.footer{
-  color: white;
-  padding-top:1%;
-  padding-bottom: 0.5%;
-  background: #232526;  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */ */
-
+.links{
+  color:black;
 }
-
-.our-profile{
-  color:white;
+.links:hover{
+  color:black;
 }
