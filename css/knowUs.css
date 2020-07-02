@@ -8,16 +8,13 @@ a{
   text-decoration: none;
 }
 
-
-/* Email Address and Phone */
-.row{
-  padding-top:0;
-  padding-top: 4%;
+body {
+ font-family: 'Quicksand', sans-serif;
 }
+
 .contact-info{
-  padding-top:6%;
   text-align: center;
-  padding-bottom: 2%;
+  padding: 4%;
 }
 
 h3{
