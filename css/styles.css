@@ -9,6 +9,8 @@
 }
 
 .navbar {
+  font-family: 'Quicksand', sans-serif;
+
   padding-right: 40px;
   padding-left: 40px;
   background: #e52d27;  /* fallback for old browsers */
@@ -59,9 +61,11 @@ body {
 }
 
 .footer a {
-  color: white;
+  color: black;
 }
-
+a.footer:hover{
+  text-decoration: underline;
+}
 .features .row {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -90,10 +94,7 @@ body {
 .footer {
   margin: 0;
   padding: 1% 0 0.1% 0;
-  color: white;
-  background: #232526;  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */ */
-  /* background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
+
 }
 .copyright{
   margin:0;
@@ -112,6 +113,9 @@ body {
   height:200px;
   width: 100%;
 }
+.footer-line{
+  margin-bottom: 0;
+}
 
 @media (max-width: 900px) {
   .navbar-brand {
@@ -123,4 +127,11 @@ body {
   .banner h1 {
     font-size: 2rem;
   }
+}
+@media (max-width: 590px) {
+.form-control{
+  width:100px;
+
+}
+
 }
