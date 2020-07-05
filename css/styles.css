@@ -146,6 +146,7 @@ a.footer:hover{
     font-size: 2rem;
   }
 }
+
 @media (max-width: 590px) {
 .form-control{
   width:100px;
