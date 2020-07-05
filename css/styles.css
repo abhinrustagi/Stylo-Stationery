@@ -135,7 +135,7 @@ a.footer:hover{
   background-color:#000;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .navbar-brand {
     display: none;
   }
