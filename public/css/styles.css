@@ -1,5 +1,5 @@
 .banner {
-  background-image: url("../img/banner1.jpeg");
+  background-image: url("../img/banner.jpeg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -10,7 +10,6 @@
 
 .navbar {
   font-family: 'Quicksand', sans-serif;
-
   padding-right: 40px;
   padding-left: 40px;
   background: #e52d27;  /* fallback for old browsers */
