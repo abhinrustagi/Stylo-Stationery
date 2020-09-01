@@ -8,13 +8,7 @@
 4. Create a JSON, or JS object in app.js (preferably JSON) for products information.
 5. Create EJS partials for Header (includes Navbar) & Footer.
 6. Add a 'Download Catalogue' button to Navbar (or products page).
-7. Photoshop all remaining images (**Abhin**)
-   - Erasers (all 3 kinds)
-   - Pencil
-   - Chalk (Box)
-   - Duster (all 3 kinds)
-   - Standalone Compass (Boxes)
-8. #### **Make the website friendly and light.**
+7. #### **Make the website friendly and light.**
 
 <hr>
 
