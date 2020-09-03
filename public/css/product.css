@@ -17,3 +17,13 @@
 .division {
   text-align: center;
 }
+
+.packing img {
+  width: 100%;
+}
+.packing {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+}

@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Stylo Stationery®</title>
+  <title>Benzo - Stylo Stationery®</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="home.css">
-  <link rel="stylesheet" href="partials.css">
+  <link rel="stylesheet" href="css/partials.css">
+  <link rel="stylesheet" href="css/product.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -15,21 +15,21 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="index.html"><img src="../../public/img/stylo logo.png" alt=""></a>
+    <a class="navbar-brand" href="index.html"><img src="img/stylo logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/products">Products<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="products.html">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="knowus.html">Know Us</a>
+          <a class="nav-link" href="/knowUs">Know Us</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -42,39 +42,52 @@
   <!-- Navbar ends -->
 
   <div class="content">
-
-    <div class="banner">
-      <div class="banner-center">
-        <img src="../../public/img/stylo logo.png" alt=""> <br />
-        <h2 class="fancy-heading">Quality begins here!</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="title-image" src="img/Compass Boxes/Compass Box Benzo/Box.png" alt="">
+      </div>
+      <div class="col-md-6 info">
+        <h1>Benzo</h1>
+        <h4 class="secondary">Geometry Box</h4>
+        <h5>Price (with GST): ₹102.00</h5>
+        <h5>M.R.P: ₹170.00</h5>
       </div>
     </div>
-
-    <div class="info">
-      <div class="features">
-        <div class="row">
-          <div class="col-md-4 ">
-            <div class="feature">
-              <i class="fas fa-chalkboard-teacher fa-3x"></i> <br />
-              <h3 class="fancy-heading">Classroom friendly</h3>
-            </div>
-          </div>
-          <div class="col-md-4 ">
-            <div class="feature">
-              <i class="fas fa-check-circle fa-3x"></i> <br />
-              <h3 class="fancy-heading">Quality Guaranteed</h3>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="feature">
-              <i class="fas fa-thumbs-up fa-3x"></i> <br />
-              <h3 class="fancy-heading">Affordable Pricing</h3>
-            </div>
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="title-image" src="img/Compass Boxes/Compass Box Benzo/Open Box.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Contents</h3>
+        <ul>
+          <li>Extra Edition Quality Drawing Set </li>
+          <ul>
+            <li>Mathematical Compass</li>
+            <li>Mathematical Divider</li>
+          </ul>
+          <li>Plastic Compass Set with self cantering point</li>
+          <ul>
+            <li>Set Squares</li>
+            <li>Protractor</li>
+            <li>Ruler</li>
+          </ul>
+          <li>Sharpener</li>
+          <li>Eraser</li>
+          <li>Correction Pen</li>
+          <li>0.7 MM Lead Pencil with refills</li>
+          <li>Half Wooden Pencil</li>
+          <li>High Quality Box with Coloured Bottom</li>
+        </ul>
       </div>
     </div>
-
+    <div class="division">
+      <h5>Units per Box: 10 Pieces</h5>
+      <h5>Boxes per Carton: 16 Boxes</h5>
+      <h5>Number of pieces in a single order: 10 x 16 = 160 Pieces</h5>
+    </div>
+    <div class="packing">
+    <img src="img/packing.png" class="packing" alt="">
+    </div>
   </div>
 
   <footer>

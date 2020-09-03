@@ -2,372 +2,207 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Products - Stylo Stationery ®</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/stylo logo.png">
-
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-   <link href="https://fonts.googleapis.com/css2?family=Jost&family=Quicksand:wght@500&display=swap" rel="stylesheet">
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/8b0894fdcb.js" crossorigin="anonymous"></script>
-
-    <!-- Custom CSS File -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Viewport meta information -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Custom CSS File -->
+    <title>Products - Stylo Stationery®</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/partials.css">
     <link rel="stylesheet" href="css/products.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="navBar">
-      <!-- include Home, Know Us, Products, Search
-              Navbar will be sticky/fixed on top -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#"><img src="img/stylo logo.png" width="80px" alt=""></a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/"><img src="img/stylo logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/products">Products<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/knowUs">Know Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="products">Products<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/know-us">Know Us</a>
-            </li>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-      </nav>
-    </div>
+    <!-- Navbar ends -->
+
     <div class="content">
-      <h1>Our Products</h1>
-      <!-- contains all the 26 products -->
-      <div class="row productHeader">
-        <img class="compassHeader" src="img/Headers/GeoBox Header.png" alt="">
-        <h2>Geometry Box</h2>
-      </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-          <div class="imgBox">
-            <img class="product" src="img/Compass Boxes/Stylo Junior/Box.png" alt="">
-          </div>
-          <h2>Stylo Junior</h2>
-          </div>
+      <h1 class="fancy-heading">Our Products</h1> <br />
+      <h6>Geometry Boxes • Compasses • Erasers • Dusters • Pencil • Clipboard • Chalk</h6>
+      <img class="product-img-header" src="img/Headers/GeoBox Header.png"><h4 class="fancy-heading product-header">Geometry Boxes</h4>
+      <div class="row product-row">
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Compass Box Benzo/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Optima/Box.png" alt="">
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Creta/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-        <h2>Optima</h2>
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Growline/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-      </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Stylo Senior/Box.png" alt="">
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Jackpot/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-        <h2>Stylo Senior</h2>
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Leader/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Compass Box Benzo/Box.png" alt="">
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Optima/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-        <h2>Benzo</h2>
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Oster/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-      </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Creta/Box.png" alt="">
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Platinum/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-        <h2>Creta</h2>
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Save Nature/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Growline/Box.png" alt="">
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Stylo Junior/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-        <h2>Growline</h2>
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Stylo Kids/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-      </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Jackpot/Box.png" alt="">
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Stylo Senior/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
-        <h2>Jackpot</h2>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Stylo Kids/Box.png" alt="">
-        </div>
-        <h2>Stylo Kids</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Leader/Box.png" alt="">
-        </div>
-        <h2>Leader</h2>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Oster/Box.png" alt="">
-        </div>
-        <h2>Oster</h2>
-      </div>
-      </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Platinum/Box.png" alt="">
-        </div>
-        <h2>Stylo Platinum</h2>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Save Nature/Box.png" alt="">
-        </div>
-        <h2>Save Nature</h2>
-      </div>
-      </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass Boxes/Vidyarthi/Box.png" alt="">
-        </div>
-        <h2>Vidyarthi</h2>
+        <div class="col-md-6 col-lg-4 product">
+          <img class="product-img" src="img/Compass Boxes/Vidyarthi/Box.png" alt="">
+          <h3>Benzo</h3>
         </div>
       </div>
 
-    </div>
-    <div class="row productHeader">
-      <img class="compassHeader" src="img/Headers/Compass Header.png" alt="">
-      <h2>Compass</h2>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass/Benzo Compass/Compass.png" alt="">
-        </div>
-        <h2>Benzo</h2>
-        </div>
+      <img class="product-img-header" src="img/Headers/Compass Header.png"><h4 class="fancy-heading product-header">Compass</h4>
+      <div class="row product-row">
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Compass/Benzo Compass/Compass.png" alt="">
+        <h3>Benzo</h3>
       </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass/Compass 555/Compass.png" alt="">
-        </div>
-        <h2>Diamond 555</h2>
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Compass/Compass 333 Black/Compass.png" alt="">
+        <h3>Benzo</h3>
       </div>
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Compass/Compass 555/Compass.png" alt="">
+        <h3>Benzo</h3>
       </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass/Compass Optus/Compass.png" alt="">
-        </div>
-        <h2>Optus</h2>
-        </div>
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Compass/Compass Optus/Compass.png" alt="">
+        <h3>Benzo</h3>
       </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Compass/Compass 333 Black/Compass.png" alt="">
-        </div>
-        <h2>Black 333</h2>
-      </div>
-      </div>
-    </div>
-    <div class="row productHeader">
-      <img class="compassHeader" src="img/Headers/Duster Header.png" alt="">
-      <h2>Dusters</h2>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Dusters/000/Side View.png" alt="">
-        </div>
-        <h2>000</h2>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Dusters/111/Side View.png" alt="">
-        </div>
-        <h2>111</h2>
-      </div>
-      </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Dusters/222/Side View.png" alt="">
-        </div>
-        <h2>222</h2>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Dusters/333/Side View.png" alt="">
-        </div>
-        <h2>333</h2>
-      </div>
-      </div>
-    </div>
-    <div class="row productHeader">
-      <img class="compassHeader" src="img/Headers/Chalk Header.png" alt="">
-      <h2>Chalk</h2>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Chalk/Triplet.png" alt="">
-        </div>
-        <h2>Dustless White Chalk</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row productHeader">
-      <img class="compassHeader" src="img/Headers/Pencil Header.png" alt="">
-      <h2>Pencil</h2>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Pencil/Pencil.png" alt="">
-        </div>
-        <h2>Pencil</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row productHeader">
-      <img class="compassHeader" src="img/Headers/Eraser Header.png" alt="">
-      <h2>Erasers</h2>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Erasers/Regular/Combo.png" alt="">
-        </div>
-        <h2>Dustless Eraser</h2>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Erasers/Small/Combo.png" alt="">
-        </div>
-        <h2>Small Erasers</h2>
-      </div>
-      <div class="productBox">
-      <div class="imgBox">
-        <img class="product" src="img/Erasers/Jumbo/Combo.png" alt="">
-      </div>
-      <h2>Jumbo Erasers</h2>
-    </div>
-      </div>
-    </div>
-    <div class="row productHeader">
-      <img class="compassHeader" src="img/Headers/Clipboard Header.png" alt="">
-      <h2>Clipboard</h2>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="productBox">
-        <div class="imgBox">
-          <img class="product" src="img/Clipboard/Single.png" alt="">
-        </div>
-        <h2>Transparent Exam Board</h2>
-        </div>
-      </div>
-    </div>
-    </div>
-    <!-- <div class="content">
-      <h1>Our Products</h1>
-      <div class="row productHeader">
-        <img class="compassHeader" src="img/GeoBox Header.png" alt="">
-        <h2>Geometry Box</h2>
-      </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="imgBox">
-          <img class="product" src="img/Boxes/StyloJuniorBox.png" alt="">
-        </div>
-      </div>
-      <div class="col-md-6 productDesc">
-        <h2>Stylo Junior</h2>
-      </div>
-    </div>
-    <div class="row productRow">
-      <div class="col-md-6">
-        <div class="imgBox">
-          <img class="product filter" src="img/Boxes/OptimaBox.png" alt="">
-        </div>
-      </div>
-      <div class="col-md-6 productDesc">
-        <h2>Optima</h2>
-      </div>
-    </div>
-    </div> -->
-    <hr class="footer-line">
-      <div class="footer">
-        <!-- Includes address, contact number, email address
-          Copyright, Stylo Stationery, 2020
-          Designed & Developed by Abhin Rustagi & Nandika Jain -->
-        <p class="copyright"> </p>
-        <p>Developed by <a class="our-profile" href="https://www.linkedin.com/in/abhinrustagi/" target="_blank">Abhin Rustagi</a> & <a class="our-profile" href="https://www.linkedin.com/in/nandika-jain-36337698/" target="_blank">Nandika Jain</a></p>
-      </div>
-      <script src="js/index.js" charset="utf-8"></script>
 
+      </div>
+
+      <img class="product-img-header" src="img/Headers/Eraser Header.png"><h4 class="fancy-heading product-header">Erasers</h4>
+      <div class="row product-row">
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Erasers/Jumbo/Eraser.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Erasers/Small/Eraser.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Erasers/Regular/Eraser.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+
+      </div>
+
+      <img class="product-img-header" src="img/Headers/Duster Header.png"><h4 class="fancy-heading product-header">Dusters</h4>
+      <div class="row product-row">
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Dusters/000/SideView.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Dusters/111/Side View.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Dusters/222/Side View.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Dusters/333/Side View.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+
+      </div>
+      <img class="product-img-header" src="img/Headers/Chalk Header.png"><h4 class="fancy-heading product-header">Chalk</h4>
+      <div class="row product-row">
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Chalk/Triplet.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+
+      </div>
+      <img class="product-img-header" src="img/Headers/Pencil Header.png"><h4 class="fancy-heading product-header">Pencil</h4>
+      <div class="row product-row">
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Pencil/Pencil.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+
+      </div>
+
+      <img class="product-img-header" src="img/Headers/Clipboard Header.png"><h4 class="fancy-heading product-header">Clipboard</h4>
+      <div class="row product-row">
+      <div class="col-md-6 col-lg-4 product">
+        <img class="product-img" src="img/Clipboard/Single.png" alt="">
+        <h3>Benzo</h3>
+      </div>
+
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 footer-data">
+          <p><a
+              href="https://www.google.com/maps/dir//Stylo+Stationery,+274,+1st+Floor,Parkash+Street,+Teliwara,+Sadar+Bazaar,+New+Delhi,+Delhi+110006/@28.6602011,77.1451748,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfd72fddca045:0xb5a5e8549b72869f!2m2!1d77.2152159!2d28.6602191">B.
+              Dayal & Sons</a></p>
+          <p>274, 1st Floor, Prakash Street, Teliwara</p>
+          <p>Sadar Bazar, Delhi-110006</p>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-data">
+          <p>Rajender Rustagi: <a href="tel:919810049121">+91 9810049121</a></p>
+          <p>Rakesh Rustagi: <a href="tel:919818280890">+91 9818280890</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-data">
+          <p>Designed & Developed by <a href="https://www.github.com/abhinrustagi/">Abhin Rustagi</a> and <a href="https://www.github.com/nandikajain/">Nandika Jain</a>.</p>
+        </div>
+      </div>
+    </footer>
   </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </html>
