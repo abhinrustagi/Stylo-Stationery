@@ -31,6 +31,10 @@ app.get("/knowUs", (req, res) => {
   res.sendFile(__dirname + "/knowus.html");
 });
 
+app.get("/search", (req,res)=>{
+  res.render("productSearch");
+})
+
 app.listen( process.env.PORT || 3000|| 8888 ,() => {
   console.log("Server started.");
 })
