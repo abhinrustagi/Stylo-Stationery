@@ -27,7 +27,10 @@ app.get("/knowUs", (req, res) => {
   res.sendFile(__dirname + "/knowUs.html");
 });
 
+app.get("/knowUs", (req, res) => {
+  res.sendFile(__dirname + "/knowus.html");
+});
 
-app.listen(3000,() => {
-  console.log("Server started on port 3000");
+app.listen(8888,() => {
+  console.log("Server started on port 8888.");
 })
