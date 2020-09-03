@@ -35,3 +35,19 @@
   color: #1dd3bd;
   transform: scale(1.2);
 }
+@media (max-width: 590px) {
+    .navbar-search{
+      width:200px
+    }
+}
+@media (max-width: 450px) {
+    .navbar-search{
+      width:150px
+    }
+}
+@media (max-width: 390px) {
+    .navbar-search{
+      width:100px
+    }
+}
+

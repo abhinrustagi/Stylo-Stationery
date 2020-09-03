@@ -31,6 +31,6 @@ app.get("/knowUs", (req, res) => {
   res.sendFile(__dirname + "/knowus.html");
 });
 
-app.listen(8888,() => {
-  console.log("Server started on port 8888.");
+app.listen( process.env.PORT || 3000|| 8888 ,() => {
+  console.log("Server started.");
 })
