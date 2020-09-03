@@ -1,0 +1,28 @@
+ID,Product Type,Name,Secondary,Contents,With GST,MRP,Units per Box,Box to Carton,Boxes per Carton ,Total Items
+1,Geometry Box,Benzo,Geometry Box,"High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Sharpener, Eraser, Correction Pen, 0.7 MM Pencil with Lead, Half Wooden Pencil.",102.00,170.00,10,Yes,16,16 x 10 = 160
+2,Geometry Box,Leader (Special Edition),Geometry Box,"High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Sharpener, Eraser, CD Marker Pen, Highlighter, Glue Stick. ",92.00,160.00,10,Yes,16,16 x 10 = 160
+3,Geometry Box,Platinum,Geometry Box,"High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Quality Drawing Set, 2 MM Lead Pencil, 10 MM Stencil, Sharpener, Eraser. ",73.00,110.00,10,Yes,16,16 x 10 = 160
+4,Geometry Box,Creta,Geometry Box,"High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Long tube Gum, Snakes & Ladder and Ludo.",60.00,102.00,10,Yes,16,16 x 10 = 160
+5,Geometry Box,Stylo Senior,Best Seller Geometry Box,"0.7 MM Pencil with Lead Box, Style Glue Gum, Diamond Compass Set with Quality drawing Set, Sharpener, Eraser Stylo White Adhesive.",57.00,98.00,10,Yes,16,16 x 10 = 160
+6,Geometry Box,Oster,Geometry Box,"High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Ball Pen, Binder Clip, 3 in 1 Sharpener",53.00,96.00,10,Yes,16,16 x 10 = 160
+7,Geometry Box,Growline,Geometry Box,"Full Plastic Tray, Drawing Set, Diamond Compass Set, Eraser, Half Pencil, Full S.S. Scissor, Sharpener, Cello Tape.",51.00,92.00,10,Yes,16,16 x 10 = 160
+8,Geometry Box,Stylo Junior,Best Seller Geometry Box,"C Type Box, Diamond Compass, Half Pencil, Adhesive Tape, Drawing Set, Time Table, Sharpener, Eraser",45.00,77.00,10,Yes,16,16 x 10 = 160
+9,Geometry Box,Jackpot,Geometry Box,"High Quality Box, Drawing Set, Compass Set, Sharpener, Eraser, Stencil, D.F. Ball Pen",45.00,78.00,10,Yes,16,16 x 10 = 160
+10,Geometry Box,Save Nature Series,Geometry Box,"High Quality Box, Drawing Set, Compass Set, Sharpener, Eraser, Stencil, D.F. Ball Pen",43.00,75.00,10,Yes,16,16 x 10 = 160
+11,Geometry Box,Optima,Geometry Box,"Broad Tin Box, Full Moulding Net, Compass Set, Quality Drawing Set, Eraser, Sharpener, 0.7 MM Pencil",40.00,70.00,10,Yes,16,16 x 10 = 160
+12,Geometry Box,Vidhyarthi,Geometry Box,"C Type Box, Full Net, Compass Set, Quality Drawing Set, Eraser, Sharpener, Half Pencil",38.00,68.00,10,Yes,16,16 x 10 = 160
+13,Geometry Box,Stylo Kids,Best Seller Geometry Box,"Full Plastic Tray, Drawing Set, Diamond Compass Set, Half Pencil, Eraser",33.00,57.00,10,Yes,16,16 x 10 = 160
+14,Compass,Compass Black 333,Mathematical Instrument,1 Compass Black 333,46.00,150.00 per Box,10,Yes,100,10 x 100 = 1000
+15,Compass,Benzo Compass,Mathematical Instrument,1 Benzo Compass,62.75,200.00 per Box,10,Yes,100,10 x 100 = 1000
+16,Compass,Diamond Compass 555,Mathematical Instrument,1 Diamond Compass 555,67.25,150.00 per Box,10,Yes,100,10 x 100 = 1000
+17,Compass,Optus Compass,Mathematical Instrument,1 Optus Compass,71.75,250.00 per Box,10,Yes,100,10 x 100 = 1000
+18,Eraser,Stylo Eraser,20 Pieces per Box,20 Erasers,21.65,60.00,,No,200,20 x 200 = 4000
+19,Eraser,3 in 1 Triangular Eraser (Small Size),Jar Pack - 100 Pieces,100 3-in-1 Triangular Erasers Small Size,46.85,150.00,,No,72 Jars,100 x 72 = 7200
+20,Eraser,3 in 1 Triangular Eraser (Big Size),Jar Pack - 100 Pieces,100 3-in-1 Triangular Erasers Big Size,93.70,300.00,,No,40 Jars,100 x 40 = 4000
+21,Pencil,0.7 Lead Pencil Pouch,"10 Pieces Per Pouch, 10 Lead Boxes (with 10 refills each)",10 0.7 MM Lead Pencil with 10 Lead Boxes each with 10 refills.,32.50,,20,,20,10 x 20 x 20 = 4000 Pencils; 10 x 20 x 20 = 4000 Lead Box
+22,Clip Board,Transparent Unbreakable,Clipboard,10 Transparent Unbreakable Clipboards,65.00,1400.00,10,Yes,12,10 x 12 = 120
+23,Wooden Duster,DGF/DWF 000,,10 Wooden DGF/DWF 000 Dusters,87.50,250.00 per Box,10,Yes,90-100,10 x 100 = 1000
+24,Wooden Duster,DGF/DWF 111,,10 Wooden DGF/DWF 111 Dusters,151.25,350.00 per Box,10,Yes,50,10 x 50 = 500
+25,Wooden Duster,DGF/DWF 222,,10 Wooden DGF/DWF 222 Dusters,180.00,400.00 per Box,10,Yes,50,10 x 50 = 500
+26,Wooden Duster,DGF/DWF 333 (T),,10 Wooden DGF/DWF 333 Dusters,180.00,400.00 per Box,10,Yes,50,10 x 50 = 500
+27,Chalk,Dustless Chalk,50 Pieces per box,50 Dustless Chalks,13.00,35.00,,No,60,50 x 60 = 3000
