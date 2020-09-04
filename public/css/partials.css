@@ -99,3 +99,18 @@ footer a:hover {
   background-color: #ffa931;
   width: 40%;
 }
+@media (max-width: 590px) {
+    .navbar-search{
+      width:200px
+    }
+}
+@media (max-width: 450px) {
+    .navbar-search{
+      width:150px
+    }
+}
+@media (max-width: 390px) {
+    .navbar-search{
+      width:100px
+    }
+}
