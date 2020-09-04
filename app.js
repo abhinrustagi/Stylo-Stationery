@@ -23,11 +23,7 @@ app.get("/products", (req, res) => {
   res.sendFile(__dirname + "/products.html")
 });
 
-app.get("/knowUs", (req, res) => {
-  res.sendFile(__dirname + "/knowUs.html");
-});
-
-app.get("/knowUs", (req, res) => {
+app.get("/knowus", (req, res) => {
   res.sendFile(__dirname + "/knowus.html");
 });
 
