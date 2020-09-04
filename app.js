@@ -35,6 +35,6 @@ app.get("/search", (req,res)=>{
   res.render("productSearch");
 })
 
-app.listen( process.env.PORT || 3000|| 8888 ,() => {
+app.listen( process.env.PORT || 3000 ,() => {
   console.log("Server started.");
 })
