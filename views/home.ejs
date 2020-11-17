@@ -1,0 +1,61 @@
+<%- include("partials/header") -%>
+
+<div class="row">
+    <div class="col-md-5">
+        <div class="home-box sr">
+            <img src="/img/Logo.svg" alt="">
+            <h1>Quality begins here</h1>
+        </div>
+    </div>
+    <div class="col-md-7 sr">
+        <img src="/img/home-flat.svg" alt="">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 features sr">
+        <i class="fas fa-chalkboard-teacher fa-3x"></i>
+        <h3>Classroom friendly</h3>
+    </div>
+    <div class="col-md-4 features sr">
+        <i class="fas fa-check-circle fa-3x"></i>
+        <h3>Quality Guaranteed</h3>
+    </div>
+    <div class="col-md-4 features sr">
+        <i class="fas fa-thumbs-up fa-3x"></i> <br />
+        <h3>Affordable Pricing</h3>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-12">
+        <h3>Best Selling Products</h3>
+    </div>
+    <% for (var i = 0; i < topProducts.length; i++) { %>
+    <% const item = topProducts[i]; %>
+    <div class="col-md-4">
+        <div class="card sr">
+            <img src="<%='/img/' + item.id + '/1.png'%>" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><%= item.name %></h5>
+                <a href="<%= '/products/' +  item.id %>" class="btn btn-primary">View</a>
+            </div>
+        </div>
+    </div>
+    <% } %>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h3>Hear what our customers have to say</h3>
+    </div>
+    <div class="col-md-4 sr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi autem sunt, deserunt illo,
+        incidunt soluta in voluptatem cum error laudantium fuga doloremque non totam ut quod iusto molestias.
+        Doloremque, nostrum.</div>
+    <div class="col-md-4 sr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi autem sunt, deserunt illo,
+        incidunt soluta in voluptatem cum error laudantium fuga doloremque non totam ut quod iusto molestias.
+        Doloremque, nostrum.</div>
+    <div class="col-md-4 sr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi autem sunt, deserunt illo,
+        incidunt soluta in voluptatem cum error laudantium fuga doloremque non totam ut quod iusto molestias.
+        Doloremque, nostrum.</div>
+</div>
+
+<%- include("partials/footer") -%>

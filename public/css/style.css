@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Secular+One&family=Space+Grotesk:wght@500;600&display=swap');
+
+html,
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    opacity: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    animation: fadeIn 2s forwards;
+}
+
+.navbar {
+    background-color: rgba(240, 84, 84, 0.4);
+    border-radius: 10px;
+}
+
+.navbar-logo {
+    width: 70px;
+    margin: -5px auto;
+}
+
+h1 {
+    font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #212121;
+    font-weight: 400;
+}
+
+hr {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(240, 84, 84, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+    border: none;
+    height: 2px;
+}
+
+.home-box {
+    margin: 5rem auto;
+}
+
+.row {
+    margin: 3rem auto;
+}
+
+.features {
+    color: #40bad5;
+    transition: 0.2s ease-in-out;
+}
+
+.col-md-4 {
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.features i {
+    margin-bottom: 20px;
+}
+
+.features:hover {
+    color: #0779e4;
+}
+
+.card {
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    transition: 0.2s ease-in-out;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    margin: 5rem auto 0;
+    background-color: #0f4c75;
+    color: white;
+    padding: 4rem 15%;
+    font-weight: 300;
+}
+
+footer a {
+    color: #bbe1fa;
+}
+
+footer a:hover {
+    color: #93b5e1;
+}
+
+footer {
+    text-align: left;
+}
+
+.product-header img {
+    width: 150px;
+}
+
+.product-header h2 {
+    position: relative;
+    display: inline-block;
+    margin: 1rem 3rem;
+    font-family: 'Secular One', Arial, Helvetica, sans-serif;
+}
+
+.product-header h2::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    width: 50%;
+    background-color: #9ab3f5;
+    border-radius: 5px;
+}
+
+.product-box {
+    padding: 1rem;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.contactUs {
+    text-align: left;
+}
+
+.contactUs i {
+    margin-right: 10px;
+}
+
+.packing {
+    width: 100%;
+    max-height: 500px;
+}
+
+.productPage img {
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.productPage img:hover {
+    transform: scale(1.1);
+}
+
+.productPage .info {
+    text-align: left;
+}
+
+.info {
+    margin-top: 1.5rem;
+}
+
+.productTitle,
+.secondary {
+    margin: 5px 0;
+}
+
+.secondary {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.floater {
+    float: right;
+    margin-right: 2rem;
+}

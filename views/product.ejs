@@ -1,0 +1,38 @@
+<%- include("partials/header") -%>
+
+<div class="row productPage">
+    <div class="col-md-6">
+        <img src="<%= '/img/' + product.id + '/1.png' %>" class="sr" alt="<%= product.name + ' Image 1' %>">
+    </div>
+    <div class="col-md-6 info sr">
+        <h1 class="productTitle"><%= product.name %></h1>
+        <h4 class="secondary"><%= product.Secondary %></h4>
+        <h2>MRP: ₹ <%= product.MRP %></h2>
+        <h5 class="secondary">₹ <%= product.WithGST %> (With GST)</h5>
+        <p><%= product.Contents %></p>
+    </div>
+    <% if (product.imgCount > 1) { %>
+    <div class="col-md-6">
+        <img src="<%= '/img/' + product.id + '/2.png' %>" class="sr" alt="<%= product.name + ' Image 2' %>">
+    </div>
+    <% } %>
+    <div class="col-md-6 info sr">
+        <p class="details"><strong>Units Per Box :</strong><span class="floater"><%= product.UnitsPerBox %></span></p>
+        <p class="details"><strong>Boxes Per Carton :</strong><span class="floater"><%= product.BoxesPerCarton %></span>
+        </p>
+        <p class="details"><strong>Total Items :</strong><span class="floater"><%= product.TotalItems %></span></p>
+    </div>
+    <% if (product.imgCount > 2) { %>
+    <% for (var i = 3; i <= product.imgCount; i++) { %>
+    <% const temp = i + '.png'; %>
+    <div class="col-md-6">
+        <img src="<%= '/img/' + product.id + '/' + temp %>" class="sr" alt="<%= product.name + ' Image ' + i %>">
+    </div>
+    <% } %>
+    <% } %>
+</div>
+<div class="row sr">
+    <img src="/img/packing.png" class="packing" alt="">
+</div>
+
+<%- include("partials/footer") -%>

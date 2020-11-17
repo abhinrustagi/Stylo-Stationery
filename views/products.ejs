@@ -1,0 +1,32 @@
+<%- include("partials/header") -%>
+
+<h1 class="mt-5 mb-3">Our Products</h1>
+<a href="/catalogue" class="btn btn-primary">Download Catalogue</a>
+
+<% for ( var i = 0; i < products.length; i++ ) { %>
+<% const productType = products[i]; %>
+<div class="row">
+    <% for (var j = 0; j < productType.length; j++ ) { %>
+    <% const item = productType[j]; %>
+    <% if (j===0) { %>
+    <div class="col-12 product-header sr">
+        <img src="<%= item.img %>" alt="">
+        <h2><%= item.title %></h2>
+    </div>
+    <% } else { %>
+    <div class="col-lg-4 col-md-6 product-box sr">
+        <div class="card">
+            <img src="<%='/img/' + item.id + '/1.png'%>" class="card-img-top" alt="<%= item.name + ' Image' %>">
+            <div class="card-body">
+                <h5 class="card-title"><%= item.name %></h5>
+                <a href="<%= '/products/' +  item.id %>" class="btn btn-primary">View</a>
+            </div>
+        </div>
+    </div>
+    <% } %>
+    <% } %>
+</div>
+<hr>
+<% } %>
+
+<%- include("partials/footer") -%>
