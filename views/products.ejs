@@ -14,19 +14,18 @@ products[i]; %>
   </div>
   <% } else { %>
   <div class="col-lg-4 col-md-6 product-box sr">
-    <div class="card">
-      <img
-        src="<%='/img/' + item.id + '/1.png'%>"
-        class="card-img-top"
-        alt="<%= item.name + ' Image' %>"
-      />
-      <div class="card-body">
-        <h5 class="card-title"><%= item.name %></h5>
-        <a href="<%= '/products/' +  item.id %>" class="btn btn-primary"
-          >View</a
-        >
-      </div>
-    </div>
+    <a href="<%= '/products/' +  item.id %>"
+      ><div class="card">
+        <img
+          src="<%='/img/' + item.id + '/1.png'%>"
+          class="card-img-top"
+          alt="<%= item.name + ' Image' %>"
+        />
+        <div class="card-body">
+          <h5 class="card-title"><%= item.name %></h5>
+        </div>
+      </div></a
+    >
   </div>
   <% } %> <% } %>
 </div>
