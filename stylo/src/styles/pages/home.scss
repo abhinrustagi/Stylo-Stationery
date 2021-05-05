@@ -1,0 +1,67 @@
+@import "../partials";
+
+#home-top {
+  min-height: 100vh;
+  text-align: center;
+  padding-bottom: 0;
+
+  @include flexBox(center, center, row);
+
+  h1 {
+    font-size: map-get($fontSizes, "12");
+    line-height: map-get($lineHeights, "12");
+    margin: 50px 0 25px;
+  }
+
+  img {
+    margin: 0 15px;
+    max-height: 500px;
+    height: 100%;
+  }
+
+  .features {
+    width: 100%;
+    padding: 50px 0;
+    background-color: $accent;
+    color: $light;
+
+    .grid {
+      width: 100%;
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+      .feature {
+        h3 {
+          font-size: map-get($fontSizes, "4");
+          line-height: map-get($lineHeights, "4");
+        }
+
+        svg {
+          margin-bottom: 20px;
+          height: 40px;
+          width: 40px;
+        }
+      }
+    }
+  }
+}
+
+#best-selling {
+  h2 {
+    font-size: map-get($fontSizes, "6");
+    line-height: map-get($lineHeights, "6");
+    margin-bottom: 30px;
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}

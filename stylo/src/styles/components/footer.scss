@@ -1,0 +1,40 @@
+@import "../partials";
+
+footer {
+  width: 100%;
+  padding: 70px 0;
+  color: $light;
+  background-color: $dark;
+
+  p.copy {
+    padding-top: 20px;
+    border-top: 1px solid $gray;
+  }
+
+  .grid {
+    display: grid;
+    margin: 30px 0;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  h5 {
+    font-size: map-get($fontSizes, "2");
+    line-height: map-get($lineHeights, "3");
+    font-weight: 600;
+  }
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  span {
+    font-weight: 500;
+  }
+
+  p {
+    line-height: map-get($lineHeights, "3");
+  }
+}

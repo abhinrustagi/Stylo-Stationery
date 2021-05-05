@@ -1,0 +1,19 @@
+@import "../partials";
+
+.productCard {
+  padding: 20px;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 1s $cubicBezier;
+  cursor: pointer;
+
+  h4 {
+    margin: 20px 0;
+    font-size: map-get($fontSizes, "3");
+    line-height: map-get($lineHeights, "3");
+  }
+  &:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}

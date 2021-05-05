@@ -411,7 +411,7 @@ const Clipboard = [
   },
 ];
 
-module.exports = [
+module.exports = {
   CompassBoxes,
   Compass,
   Dusters,
@@ -419,4 +419,4 @@ module.exports = [
   Chalk,
   Pencil,
   Clipboard,
-];
+};
