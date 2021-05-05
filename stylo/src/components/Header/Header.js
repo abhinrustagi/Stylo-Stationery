@@ -5,6 +5,7 @@ import { RiCompasses2Line } from "react-icons/ri";
 import { AiOutlineHome } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isExpanded, setState] = useState(false);
@@ -19,27 +20,29 @@ function Header() {
   return (
     <header>
       <nav className="container">
-        <img src={Img} alt="Stylo Stationery" className="nav-logo" />
+        <Link to="/">
+          <img src={Img} alt="Stylo Stationery" className="nav-logo" />
+        </Link>
         <GiHamburgerMenu onClick={onClickHandler} className="menu-btn" />
         <ul className={`nav-links ${isExpanded ? "isExpanded" : ""}`}>
-          <a href="/">
+          <Link to="/">
             <li>
               <AiOutlineHome />
               Home
             </li>
-          </a>
-          <a href="/products">
+          </Link>
+          <Link to="/products">
             <li>
               <RiCompasses2Line />
               View Products
             </li>
-          </a>
-          <a href="/contact">
+          </Link>
+          <Link to="/contact">
             <li>
               <IoIosContact />
               Contact Us
             </li>
-          </a>
+          </Link>
         </ul>
       </nav>
     </header>

@@ -9,11 +9,28 @@
   cursor: pointer;
 
   h4 {
-    margin: 20px 0;
+    margin: 20px 0 10px;
     font-size: map-get($fontSizes, "3");
     line-height: map-get($lineHeights, "3");
   }
   &:hover {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  a {
+    display: block;
+  }
+
+  h5 {
+    font-size: map-get($fontSizes, "1");
+    line-height: map-get($lineHeights, "1");
+  }
+
+  button {
+    margin-top: 10px;
+    font-size: map-get($fontSizes, "1");
+    line-height: map-get($lineHeights, "1");
+    font-weight: 500;
+    padding: 8px 15px;
   }
 }

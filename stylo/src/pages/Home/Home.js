@@ -6,6 +6,7 @@ import { SiGoogleclassroom } from "react-icons/si";
 import { HiThumbUp } from "react-icons/hi";
 import ProductCard from "../../components/ProductCard/ProductCard";
 import { CompassBoxes } from "../../products/products";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -40,10 +41,13 @@ function Home() {
         <div className="container">
           <h2>Best Selling Products</h2>
           <div className="grid">
+            <ProductCard product={CompassBoxes[0]} />
             <ProductCard product={CompassBoxes[1]} />
-            <ProductCard product={CompassBoxes[2]} />
-            <ProductCard product={CompassBoxes[4]} />
+            <ProductCard product={CompassBoxes[3]} />
           </div>
+          <Link>
+            <button className="view-all">View all products here.</button>
+          </Link>
         </div>
       </section>
     </>

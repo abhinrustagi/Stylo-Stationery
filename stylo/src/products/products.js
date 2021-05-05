@@ -1,13 +1,98 @@
 //jshint esversion:6
+import P101_1 from "../img/101/1.png";
+import P101_2 from "../img/101/2.png";
 
-const CompassBoxes = [
-  {
-    title: "Geometry Boxes",
-    img: "/img/Headers/1.png",
-  },
+import P102_1 from "../img/102/1.png";
+import P102_2 from "../img/102/2.png";
+import P102_3 from "../img/102/3.png";
+
+import P103_1 from "../img/103/1.png";
+import P103_2 from "../img/103/2.png";
+
+import P104_1 from "../img/104/1.png";
+import P104_2 from "../img/104/2.png";
+
+import P105_1 from "../img/105/1.png";
+import P105_2 from "../img/105/2.png";
+
+import P106_1 from "../img/106/1.png";
+import P106_2 from "../img/106/2.png";
+
+import P107_1 from "../img/107/1.png";
+import P107_2 from "../img/107/2.png";
+
+import P108_1 from "../img/108/1.png";
+import P108_2 from "../img/108/2.png";
+
+import P109_1 from "../img/109/1.png";
+import P109_2 from "../img/109/2.png";
+
+import P110_1 from "../img/110/1.png";
+import P110_2 from "../img/110/2.png";
+
+import P111_1 from "../img/111/1.png";
+import P111_2 from "../img/111/2.png";
+
+import P112_1 from "../img/112/1.png";
+import P112_2 from "../img/112/2.png";
+
+import P113_1 from "../img/113/1.png";
+import P113_2 from "../img/113/2.png";
+
+import P201_1 from "../img/201/1.png";
+import P201_2 from "../img/201/2.png";
+import P201_3 from "../img/201/3.png";
+import P201_4 from "../img/201/4.png";
+
+import P202_1 from "../img/202/1.png";
+import P202_2 from "../img/202/2.png";
+import P202_3 from "../img/202/3.png";
+import P202_4 from "../img/202/4.png";
+
+import P203_1 from "../img/203/1.png";
+import P203_2 from "../img/203/2.png";
+import P203_3 from "../img/203/3.png";
+import P203_4 from "../img/203/4.png";
+
+import P204_1 from "../img/204/1.png";
+import P204_2 from "../img/204/2.png";
+import P204_3 from "../img/204/3.png";
+import P204_4 from "../img/204/4.png";
+
+import P301_1 from "../img/301/1.png";
+import P301_2 from "../img/301/2.png";
+
+import P302_1 from "../img/302/1.png";
+import P302_2 from "../img/302/2.png";
+
+import P303_1 from "../img/303/1.png";
+import P303_2 from "../img/303/2.png";
+
+import P304_1 from "../img/304/1.png";
+import P304_2 from "../img/304/2.png";
+
+import P401_1 from "../img/401/1.png";
+import P401_2 from "../img/401/2.png";
+
+import P402_1 from "../img/402/1.png";
+import P402_2 from "../img/402/2.png";
+
+import P403_1 from "../img/403/1.png";
+import P403_2 from "../img/403/2.png";
+
+import P501_1 from "../img/501/1.png";
+import P501_2 from "../img/501/2.png";
+
+import P601_1 from "../img/601/1.png";
+import P601_2 from "../img/601/2.png";
+
+import P701_1 from "../img/701/1.png";
+
+export const CompassBoxes = [
   {
     id: 112,
     name: "Stylo Senior",
+    title: "Geometry Boxes",
     Secondary: "Best Seller Geometry Box",
     Contents:
       "0.7 MM Pencil with Lead Box, Style Glue Gum, Diamond Compass Set with Quality drawing Set, Sharpener, Eraser Stylo White Adhesive.",
@@ -17,11 +102,12 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P112_1, P112_2],
   },
   {
     id: 110,
     name: "Stylo Junior",
+    title: "Geometry Boxes",
     Secondary: "Best Seller Geometry Box",
     Contents:
       "C Type Box, Diamond Compass, Half Pencil, Adhesive Tape, Drawing Set, Time Table, Sharpener, Eraser",
@@ -31,11 +117,12 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P110_1, P110_2],
   },
   {
     id: 111,
     name: "Stylo Kids",
+    title: "Geometry Boxes",
     Secondary: "Best Seller Geometry Box",
     Contents:
       "Full Plastic Tray, Drawing Set, Diamond Compass Set, Half Pencil, Eraser",
@@ -45,12 +132,13 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P111_1, P111_2],
   },
   {
     id: 101,
     name: "Benzo",
     Secondary: "Geometry Box",
+    title: "Geometry Boxes",
     Contents:
       "High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Whitener, Sharpener, Eraser, Correction Pen, 0.7 MM Pencil with Lead, Half Wooden Pencil.",
     WithGST: 102.0,
@@ -59,12 +147,13 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P101_1, P101_2],
   },
   {
     id: 102,
     name: "Creta",
     Secondary: "Geometry Box",
+    title: "Geometry Boxes",
     Contents:
       "High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Long tube Gum, Snakes & Ladder and Ludo.",
     WithGST: 60.0,
@@ -73,12 +162,13 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 3,
+    img: [P102_1, P102_2, P102_3],
   },
   {
     id: 103,
     name: "Growline",
     Secondary: "Geometry Box",
+    title: "Geometry Boxes",
     Contents:
       "Full Plastic Tray, Drawing Set, Diamond Compass Set, Eraser, Half Pencil, Full S.S. Scissor, Sharpener, Cello Tape.",
     WithGST: 51.0,
@@ -87,12 +177,13 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P103_1, P103_2],
   },
   {
     id: 104,
     name: "Jackpot",
     Secondary: "Geometry Box",
+    title: "Geometry Boxes",
     Contents:
       "High Quality Box, Drawing Set, Compass Set, Sharpener, Eraser, Stencil, D.F. Ball Pen",
     WithGST: 45.0,
@@ -101,11 +192,12 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P104_1, P104_2],
   },
   {
     id: 105,
     name: "Leader (Special Edition)",
+    title: "Geometry Boxes",
     Secondary: "Geometry Box",
     Contents:
       "High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Sharpener, Eraser, CD Marker Pen, Highlighter, Glue Stick. ",
@@ -115,12 +207,13 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P105_1, P105_2],
   },
   {
     id: 106,
     name: "Optima",
     Secondary: "Geometry Box",
+    title: "Geometry Boxes",
     Contents:
       "Broad Tin Box, Full Moulding Net, Compass Set, Quality Drawing Set, Eraser, Sharpener, 0.7 MM Pencil",
     WithGST: 40.0,
@@ -129,12 +222,13 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P106_1, P106_2],
   },
   {
     id: 113,
     name: "Vidyarthi",
     Secondary: "Geometry Box",
+    title: "Geometry Boxes",
     Contents:
       "C Type Box, Full Net, Compass Set, Quality Drawing Set, Eraser, Sharpener, Half Pencil",
     WithGST: 38.0,
@@ -143,11 +237,12 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P113_1, P113_2],
   },
   {
     id: 109,
     name: "Save Nature Series",
+    title: "Geometry Boxes",
     Secondary: "Geometry Box",
     Contents:
       "High Quality Box, Drawing Set, Compass Set, Sharpener, Eraser, Stencil, D.F. Ball Pen",
@@ -157,12 +252,13 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P109_1, P109_2],
   },
   {
     id: 108,
     name: "Platinum",
     Secondary: "Geometry Box",
+    title: "Geometry Boxes",
     Contents:
       "High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Quality Drawing Set, 2 MM Lead Pencil, 10 MM Stencil, Sharpener, Eraser. ",
     WithGST: 73.0,
@@ -171,12 +267,13 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P108_1, P108_2],
   },
   {
     id: 107,
     name: "Oster",
     Secondary: "Geometry Box",
+    title: "Geometry Boxes",
     Contents:
       "High Quality Box with Coloured Bottom, Extra Edition Quality Drawing Set, Plastic Compass Set with self cantering point, Ball Pen, Binder Clip, 3 in 1 Sharpener",
     WithGST: 53.0,
@@ -185,17 +282,14 @@ const CompassBoxes = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "16",
     TotalItems: "16 x 10 = 160",
-    imgCount: 2,
+    img: [P107_1, P107_2],
   },
 ];
 
-const Compass = [
-  {
-    title: "Compass",
-    img: "/img/Headers/2.png",
-  },
+export const Compass = [
   {
     id: 202,
+    title: "Compass",
     name: "Stylo Compass Black-333",
     Secondary: "Mathematical Instrument",
     Contents: "1 Compass Black 333",
@@ -205,37 +299,40 @@ const Compass = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "100",
     TotalItems: "10 x 100 = 1000",
-    imgCount: 4,
+    img: [P202_1, P202_2, P202_3, P202_4],
   },
   {
     id: 201,
     name: "Stylo Benzo Compass",
     Secondary: "Mathematical Instrument",
     Contents: "1 Benzo Compass",
+    title: "Compass",
     WithGST: 62.75,
     MRP: "200.00 per Box",
     UnitsPerBox: 10.0,
     BoxToCarton: "Yes",
     BoxesPerCarton: "100",
     TotalItems: "10 x 100 = 1000",
-    imgCount: 4,
+    img: [P201_1, P201_2, P201_3, P201_4],
   },
   {
     id: 204,
     name: "Stylo Optus Compass",
     Secondary: "Mathematical Instrument",
     Contents: "1 Diamond Compass 555",
+    title: "Compass",
     WithGST: 67.25,
     MRP: "150.00 per Box",
     UnitsPerBox: 10.0,
     BoxToCarton: "Yes",
     BoxesPerCarton: "100",
     TotalItems: "10 x 100 = 1000",
-    imgCount: 4,
+    img: [P204_1, P204_2, P204_3, P204_4],
   },
   {
     id: 203,
     name: "Stylo Diamond Compass-555",
+    title: "Compass",
     Secondary: "Mathematical Instrument",
     Contents: "1 Optus Compass",
     WithGST: 71.75,
@@ -244,15 +341,11 @@ const Compass = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "100",
     TotalItems: "10 x 100 = 1000",
-    imgCount: 4,
+    img: [P203_1, P203_2, P203_3, P203_4],
   },
 ];
 
-const Dusters = [
-  {
-    title: "Dusters",
-    img: "/img/Headers/3.png",
-  },
+export const Dusters = [
   {
     id: 301,
     name: "Duster DWF/DGF 000",
@@ -264,7 +357,8 @@ const Dusters = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "90-100",
     TotalItems: "10 x 100 = 1000",
-    imgCount: 2,
+    title: "Dusters",
+    img: [P301_1, P301_2],
   },
   {
     id: 302,
@@ -277,7 +371,8 @@ const Dusters = [
     BoxToCarton: "Yes",
     BoxesPerCarton: "50",
     TotalItems: "10 x 50 = 500",
-    imgCount: 2,
+    title: "Dusters",
+    img: [P302_1, P302_2],
   },
   {
     id: 303,
@@ -288,9 +383,10 @@ const Dusters = [
     MRP: "400.00 per Box",
     UnitsPerBox: 10.0,
     BoxToCarton: "Yes",
+    title: "Dusters",
     BoxesPerCarton: "50",
     TotalItems: "10 x 50 = 500",
-    imgCount: 2,
+    img: [P303_1, P303_2],
   },
   {
     id: 304,
@@ -302,16 +398,13 @@ const Dusters = [
     UnitsPerBox: 10.0,
     BoxToCarton: "Yes",
     BoxesPerCarton: "50",
+    title: "Dusters",
     TotalItems: "10 x 50 = 500",
-    imgCount: 2,
+    img: [P304_1, P304_2],
   },
 ];
 
-const Erasers = [
-  {
-    title: "Erasers",
-    img: "/img/Headers/4.png",
-  },
+export const Erasers = [
   {
     id: 401,
     name: "Stylo Eraser",
@@ -322,8 +415,9 @@ const Erasers = [
     UnitsPerBox: 20,
     BoxToCarton: "No",
     BoxesPerCarton: "200",
+    title: "Erasers",
     TotalItems: "20 x 200 = 4000",
-    imgCount: 3,
+    img: [P401_1, P401_2],
   },
   {
     id: 402,
@@ -335,8 +429,9 @@ const Erasers = [
     UnitsPerBox: 100,
     BoxToCarton: "No",
     BoxesPerCarton: "72 Jars",
+    title: "Erasers",
     TotalItems: "100 x 72 = 7200",
-    imgCount: 3,
+    img: [P402_1, P402_2],
   },
   {
     id: 403,
@@ -347,17 +442,14 @@ const Erasers = [
     MRP: "300.00",
     UnitsPerBox: 100,
     BoxToCarton: "No",
+    title: "Erasers",
     BoxesPerCarton: "40 Jars",
     TotalItems: "100 x 40 = 4000",
-    imgCount: 3,
+    img: [P403_1, P403_2],
   },
 ];
 
-const Chalk = [
-  {
-    title: "Chalks",
-    img: "/img/Headers/5.png",
-  },
+export const Chalk = [
   {
     id: 501,
     name: "Stylo Dustless Chalk",
@@ -368,16 +460,13 @@ const Chalk = [
     UnitsPerBox: null,
     BoxToCarton: "No",
     BoxesPerCarton: "60",
+    title: "Chalks",
     TotalItems: "50 x 60 = 3000",
-    imgCount: 2,
+    img: [P501_1, P501_2],
   },
 ];
 
-const Pencil = [
-  {
-    title: "Pencil",
-    img: "/img/Headers/6.png",
-  },
+export const Pencil = [
   {
     id: 601,
     name: "Stylo 0.7 Lead Pencil",
@@ -386,17 +475,15 @@ const Pencil = [
     WithGST: 32.5,
     MRP: null,
     UnitsPerBox: 20.0,
+    title: "Pencil",
     BoxToCarton: "No",
     BoxesPerCarton: "20",
     TotalItems: "10 x 20 x 20 = 4000 Pencils; 10 x 20 x 20 = 4000 Lead Box",
+    img: [P601_1, P601_2],
   },
 ];
 
-const Clipboard = [
-  {
-    title: "Clipboard",
-    img: "/img/Headers/7.png",
-  },
+export const Clipboard = [
   {
     id: 701,
     name: "Stylo Transparent Unbreakable Clipboard",
@@ -406,17 +493,9 @@ const Clipboard = [
     MRP: "1400.00",
     UnitsPerBox: 10.0,
     BoxToCarton: "Yes",
+    title: "Clipboard",
     BoxesPerCarton: "12",
     TotalItems: "10 x 12 = 120",
+    img: [P701_1],
   },
 ];
-
-module.exports = {
-  CompassBoxes,
-  Compass,
-  Dusters,
-  Erasers,
-  Chalk,
-  Pencil,
-  Clipboard,
-};
