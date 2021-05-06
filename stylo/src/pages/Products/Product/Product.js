@@ -49,7 +49,7 @@ function Product({ match }) {
         History.push("/products");
         break;
     }
-  }, []);
+  }, [match.params.id, History]);
   return (
     <section id="product">
       <div className="container">
@@ -71,7 +71,7 @@ function Product({ match }) {
         {product?.img.length > 1 ? (
           <div className="grid">
             {product?.img.map((ss, _) => {
-              return _ != 0 ? (
+              return _ !== 0 ? (
                 <div className="imgContainer">
                   <img src={ss} alt={product.name} />
                 </div>
