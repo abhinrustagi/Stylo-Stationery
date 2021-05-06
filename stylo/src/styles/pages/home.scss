@@ -70,3 +70,21 @@
     }
   }
 }
+
+#testimonials {
+  h2 {
+    font-size: map-get($fontSizes, "6");
+    line-height: map-get($lineHeights, "6");
+    margin-bottom: 30px;
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    p {
+      font-style: italic;
+    }
+  }
+}

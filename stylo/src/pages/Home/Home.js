@@ -45,9 +45,31 @@ function Home() {
             <ProductCard product={CompassBoxes[1]} />
             <ProductCard product={CompassBoxes[3]} />
           </div>
-          <Link>
+          <Link to="/products">
             <button className="view-all">View all products here.</button>
           </Link>
+        </div>
+      </section>
+      <section id="testimonials">
+        <div className="container">
+          <h2>What our customers have to say</h2>
+          <div className="grid">
+            <p>
+              " These guys are seriously good - Fast, Friendly, Excellent -
+              always willing to go 'the extra 9 yards' - We've been using and
+              abusing Stylo products for years now and they've never let us down
+              - just try them out - you won't be disappointed.
+            </p>
+            <p>
+              " They have a great selection of stationery items which are very
+              long lasting, and durable. The compass box collection is very well
+              thought out, and really great.
+            </p>
+            <p>
+              " The chalk-duster combination is great one to use, it's really
+              awesome. They are dustless and keep the hands clean.
+            </p>
+          </div>
         </div>
       </section>
     </>

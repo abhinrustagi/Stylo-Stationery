@@ -1,0 +1,41 @@
+@import "../partials";
+
+#product {
+  margin-top: 25px;
+
+  h1 {
+    font-size: map-get($fontSizes, "9");
+    line-height: map-get($lineHeights, "9");
+    margin-bottom: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-gap: 30px;
+    margin: 20px 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    img {
+      width: 100%;
+    }
+
+    .imgContainer {
+      max-width: 400px;
+      align-self: center;
+    }
+
+    h4 {
+      margin: 15px 0;
+      font-size: map-get($fontSizes, "5");
+      line-height: map-get($lineHeights, "5");
+    }
+
+    h5 {
+      color: $gray;
+      font-size: map-get($fontSizes, "3");
+      line-height: map-get($lineHeights, "3");
+    }
+    p {
+      margin: 15px 0;
+    }
+  }
+}

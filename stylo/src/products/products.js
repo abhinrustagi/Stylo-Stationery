@@ -73,12 +73,15 @@ import P304_2 from "../img/304/2.png";
 
 import P401_1 from "../img/401/1.png";
 import P401_2 from "../img/401/2.png";
+import P401_3 from "../img/401/3.png";
 
 import P402_1 from "../img/402/1.png";
 import P402_2 from "../img/402/2.png";
+import P402_3 from "../img/402/3.png";
 
 import P403_1 from "../img/403/1.png";
 import P403_2 from "../img/403/2.png";
+import P403_3 from "../img/403/3.png";
 
 import P501_1 from "../img/501/1.png";
 import P501_2 from "../img/501/2.png";
@@ -417,7 +420,7 @@ export const Erasers = [
     BoxesPerCarton: "200",
     title: "Erasers",
     TotalItems: "20 x 200 = 4000",
-    img: [P401_1, P401_2],
+    img: [P401_1, P401_2, P401_3],
   },
   {
     id: 402,
@@ -431,7 +434,7 @@ export const Erasers = [
     BoxesPerCarton: "72 Jars",
     title: "Erasers",
     TotalItems: "100 x 72 = 7200",
-    img: [P402_1, P402_2],
+    img: [P402_1, P402_2, P402_3],
   },
   {
     id: 403,
@@ -445,7 +448,7 @@ export const Erasers = [
     title: "Erasers",
     BoxesPerCarton: "40 Jars",
     TotalItems: "100 x 40 = 4000",
-    img: [P403_1, P403_2],
+    img: [P403_1, P403_2, P403_3],
   },
 ];
 
