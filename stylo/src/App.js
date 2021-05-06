@@ -7,10 +7,13 @@ import Product from "./pages/Products/Product/Product";
 import Products from "./pages/Products/Products";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
+import ScrollToTop from "./ScrollToTop"
+
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Header />
       <Switch>
         <Route path="/" exact>
