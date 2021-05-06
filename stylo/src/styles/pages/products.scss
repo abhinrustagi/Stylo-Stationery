@@ -1,0 +1,23 @@
+@import "../partials";
+
+#products-top {
+  padding-top: 100px;
+
+  h1 {
+    font-size: map-get($fontSizes, "10");
+    line-height: map-get($lineHeights, "10");
+    margin-bottom: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  h2 {
+    margin: 25px 0;
+    text-transform: uppercase;
+    padding-top: 15px;
+    border-top: 2px solid $accent;
+  }
+}
