@@ -1,24 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { Products } from "products";
-import { useHistory } from "react-router-dom";
 import img from "img/packing.png";
+import { useLoaderData } from "react-router-dom";
 import "styles/pages/product.scss";
 import { HelmetConfig } from "utils";
 
-function Product({ match }) {
-  const [product, setProduct] = useState(null);
-  const History = useHistory();
+function Product() {
+  const { product } = useLoaderData();
 
-  useEffect(() => {
-    const prod = Products.find((_) => _.slug === match.params.slug);
-
-    if (!prod) {
-      History.push("/");
-    } else {
-      setProduct(prod);
-    }
-  }, [match.params.slug, History]);
-
+  console.log(product);
   return (
     <>
       <HelmetConfig title={product?.name} path={"/products/" + product?.slug} />

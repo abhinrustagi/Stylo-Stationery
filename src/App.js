@@ -1,34 +1,38 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { Header, Footer } from "components";
-import { Product, Home, Contact, ProductsPage } from "pages";
+import { Contact, Home, Product, ProductsPage } from "pages";
 
-import { ScrollToTop } from "utils";
+import RootLayout from "layout/RootLayout";
+import { productLoader } from "pages/Products/Product/loader";
 
 function App() {
-  return (
-    <Router>
-      <ScrollToTop />
-      <Header />
-      <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/contact" exact>
-          <Contact />
-        </Route>
-        <Route path="/products" exact>
-          <ProductsPage />
-        </Route>
-        <Route path="/products/:slug" exact component={Product} />
-        <Route path="*" exact>
-          <Home />
-        </Route>
-      </Switch>
-      <Footer />
-    </Router>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <RootLayout />,
+      children: [
+        {
+          path: "",
+          element: <Home />,
+        },
+        {
+          path: "contact",
+          element: <Contact />,
+        },
+        {
+          path: "products",
+          element: <ProductsPage />,
+        },
+        {
+          path: "products/:slug",
+          element: <Product />,
+          loader: productLoader,
+        },
+      ],
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;
